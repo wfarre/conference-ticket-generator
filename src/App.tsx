@@ -34,22 +34,21 @@ function App() {
           <Form submitForm={handleSubmit} />
         )}
       </main>
-      <footer className="relative">
-        <picture className="absolute bottom-0 left-0 h-50 w-70 z-[-1]">
-          <img
-            className="absolute top-0 left-0 w-full h-full"
-            src={DecoBottom}
-            alt=""
-          />
-        </picture>
-      </footer>
-      {/* <div className="attribution">
+      <picture className="absolute bottom-0 left-0 h-50 w-70 z-[-1] md:w-[396px] md:h-[276px] lg:w-[770px] lg:h-[567px]">
+        <img
+          className="absolute top-0 left-0 w-full h-full"
+          src={DecoBottom}
+          alt=""
+        />
+      </picture>
+      <footer className="attribution absolute bottom-0 left-0 w-full">
         Challenge by{" "}
         <a href="https://www.frontendmentor.io?ref=challenge">
           Frontend Mentor
         </a>
-        . Coded by <a href="#">Your Name Here</a>.
-      </div> */}
+        . Coded by{" "}
+        <a href="https://william-portfolio-psi.vercel.app/">William Farre</a>.
+      </footer>
     </>
   );
 }

@@ -10,7 +10,7 @@ interface Props {
 
 const GeneratedTicket = (props: Props) => {
   return (
-    <article className="relative bg-white-transparent w-full min-h-40 p-4 md:py-7.5 md:px-6 max-w-[600px] mx-auto md:h-70">
+    <article className="relative bg-white-transparent w-full min-h-40 p-4 md:py-7.5 md:px-6 max-w-[338px] md:max-w-[600px] mx-auto md:h-70">
       <img
         className="absolute w-full h-full left-0 top-0 z-[-1]"
         src={TicketPattern}
